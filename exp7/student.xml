@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="student.xsd">
+
+    <student>
+        <regno>21CS001</regno>
+        <name>Ananya</name>
+        <dept>CSE</dept>
+        <semester>5</semester>
+        <email>ananya@college.edu</email>
+        <cgpa>9.1</cgpa>
+    </student>
+
+    <student>
+        <regno>21CS002</regno>
+        <name>Ravi</name>
+        <dept>CSE</dept>
+        <semester>5</semester>
+        <email>ravi@college.edu</email>
+        <cgpa>8.4</cgpa>
+    </student>
+
+    <student>
+        <regno>21CS003</regno>
+        <name>Kiran</name>
+        <dept>IT</dept>
+        <semester>3</semester>
+        <email>kiran@college.edu</email>
+        <cgpa>8.9</cgpa>
+    </student>
+
+</students>
