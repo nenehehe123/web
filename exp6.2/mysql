@@ -1,0 +1,15 @@
+USE college;
+
+CREATE TABLE student_marks (
+    rollno VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100),
+    dept VARCHAR(50),
+    sub1 INT,
+    sub2 INT,
+    sub3 INT
+);
+
+INSERT INTO student_marks (rollno, name, dept, sub1, sub2, sub3) VALUES
+('21CS001', 'Ananya', 'CSE', 85, 90, 88),
+('21CS002', 'Ravi', 'CSE', 78, 82, 80),
+('21CS003', 'Kiran', 'IT', 92, 89, 94);
