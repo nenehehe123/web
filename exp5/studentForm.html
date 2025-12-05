@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Information Form</title>
+</head>
+<body>
+
+    <h2>Student Information Form</h2>
+
+    <form action="StudentServlet" method="post">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+
+            <tr>
+                <td>Register Number</td>
+                <td><input type="text" name="regno" required></td>
+            </tr>
+
+            <tr>
+                <td>Department</td>
+                <td><input type="text" name="dept" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
