@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Types of Cascading Style Sheets</title>
+
+ <!-- External CSS -->
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+ <!-- Internal CSS -->
+ <style>
+     h2 {
+         color: darkblue;
+         text-align: center;
+         text-decoration: underline;
+     }
+     .content-box {
+         border: 2px solid #333;
+         padding: 15px;
+         margin: 20px auto;
+         width: 80%;
+         background-color: #f9f9f9;
+     }
+     .internal-text {
+         font-style: italic;
+     }
+ </style>
+</head>
+
+<body>
+
+ <!-- External CSS -->
+ <h1>Demonstration of Cascading Style Sheets</h1>
+
+ <!-- Internal CSS -->
+ <h2>Inline, Internal and External CSS</h2>
+
+ <div class="content-box">
+
+     <!-- Internal + External CSS -->
+     <p class="internal-text">
+         This paragraph is styled using internal and external CSS.
+     </p>
+
+     <!-- Inline CSS -->
+     <p style="color: red; font-weight: bold; font-size: 18px;">
+         This paragraph uses <strong>inline CSS</strong>, which has the highest priority.
+     </p>
+
+     <!-- Only External CSS -->
+     <p>
+         This paragraph is styled only by the external stylesheet.
+     </p>
+
+ </div>
+
+ <footer>
+     <p>&copy; 2025 Web Technology Lab</p>
+ </footer>
+
+</body>
+</html>
