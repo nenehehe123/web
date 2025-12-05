@@ -1,0 +1,20 @@
+CREATE DATABASE college;
+USE college;
+
+CREATE TABLE questions (
+    qid INT PRIMARY KEY AUTO_INCREMENT,
+    question VARCHAR(255),
+    optionA VARCHAR(100),
+    optionB VARCHAR(100),
+    optionC VARCHAR(100),
+    optionD VARCHAR(100),
+    correct_option CHAR(1)  -- A, B, C, D
+);
+
+INSERT INTO questions (question, optionA, optionB, optionC, optionD, correct_option)
+VALUES
+('Which language is used in JSP?', 'Java', 'C', 'C++', 'Python', 'A'),
+('Which protocol is used on the web?', 'FTP', 'SMTP', 'HTTP', 'SSH', 'C'),
+('Which method sends data securely?', 'GET', 'POST', 'HEAD', 'TRACE', 'B'),
+('Which tag holds Java code in JSP?', '<%! %>', '<% %>', '<%@ %>', '<jsp:useBean>', 'B'),
+('JDBC is used to connect?', 'HTML to DB', 'CSS to DB', 'Java to DB', 'XML to DB', 'C');
